@@ -1,5 +1,6 @@
 // based on a keyboard
 // Modified for a real Latin American Keyboard by Fabian Mandelbaum
+// 20200428
 
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
@@ -90,20 +91,20 @@ xkb_symbols "dvorak" {
     key <AD01> {[     period,          colon, question                         ]};
     key <AD02> {[      comma,      semicolon, questiondown                     ]};
     key <AD03> {[     ntilde,         Ntilde,        ccedilla,        Ccedilla ]};
-    key <AD04> {[          p,              P,      paragraph                   ]};
-    key <AD05> {[          y,              Y,            yen                   ]};
-    key <AD06> {[          f,              F,         tslash,         Tslash   ]};
-    key <AD07> {[          g,              G,        dstroke,        Dstroke   ]};
-    key <AD08> {[          c,              C,           cent,      copyright   ]};
-    key <AD09> {[          h,              H,        hstroke,        Hstroke   ]};
-    key <AD10> {[          l,              L,       sterling                   ]};
+    key <AD04> {[          p,              P,      numbersign                  ]};
+    key <AD05> {[          y,              Y,          dollar                  ]};
+    key <AD06> {[          f,              F,         percent,                 ]};
+    key <AD07> {[          g,              G,       ampersand                  ]};
+    key <AD08> {[          c,              C,         sterisk                  ]};
+    key <AD09> {[          h,              H,       parenleft                  ]};
+    key <AD10> {[          l,              L,      parenright                  ]};
     key <AD11> {[  bracketleft, braceleft                                      ]};
     key <AD12> {[ bracketright, braceright 				       ]};
 
     key <AC01> {[          a,            A,              ae,         AE        ]};
     key <AC02> {[          o,            O,          oslash,     Oslash        ]};
-    key <AC03> {[          e,            E,        EuroSign                    ]};
-    key <AC04> {[          u,            U,           aring,      Aring        ]};
+    key <AC03> {[          e,            E,           aring,      Aring        ]};
+    key <AC04> {[          u,            U,              at                    ]};
     key <AC05> {[          i,            I,              oe,         OE        ]};
     key <AC06> {[          d,            D,             eth,        ETH        ]};
     key <AC07> {[          r,            R,      registered,  trademark        ]};
