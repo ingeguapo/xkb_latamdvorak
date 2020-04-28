@@ -88,12 +88,12 @@ xkb_symbols "dvorak" {
     key <AE11> {[        minus, underscore                                     ]};
     key <AE12> {[        equal, plus                                           ]};
 
-    key <AD01> {[     period,          colon, question                         ]};
-    key <AD02> {[      comma,      semicolon, questiondown                     ]};
+    key <AD01> {[     period,          colon, questiondown                     ]};
+    key <AD02> {[      comma,      semicolon, question                         ]};
     key <AD03> {[     ntilde,         Ntilde,        ccedilla,        Ccedilla ]};
     key <AD04> {[          p,              P,      numbersign                  ]};
     key <AD05> {[          y,              Y,          dollar                  ]};
-    key <AD06> {[          f,              F,         percent,                 ]};
+    key <AD06> {[          f,              F,         percent                  ]};
     key <AD07> {[          g,              G,       ampersand                  ]};
     key <AD08> {[          c,              C,         sterisk                  ]};
     key <AD09> {[          h,              H,       parenleft                  ]};
@@ -102,8 +102,8 @@ xkb_symbols "dvorak" {
     key <AD12> {[ bracketright, braceright 				       ]};
 
     key <AC01> {[          a,            A,              ae,         AE        ]};
-    key <AC02> {[          o,            O,          oslash,     Oslash        ]};
-    key <AC03> {[          e,            E,           aring,      Aring        ]};
+    key <AC02> {[          o,            O,       parenleft                    ]};
+    key <AC03> {[          e,            E,      parenright                    ]};
     key <AC04> {[          u,            U,              at                    ]};
     key <AC05> {[          i,            I,              oe,         OE        ]};
     key <AC06> {[          d,            D,             eth,        ETH        ]};
@@ -116,14 +116,14 @@ xkb_symbols "dvorak" {
 
     key <LSGT> {[       less,    greater, guillemotleft, guillemotright        ]};
     key <AB01> {[      dead_acute, dead_diaeresis, dead_grave, dead_circumflex ]};
-    key <AB02> {[          q,          Q,      currency                        ]};
-    key <AB03> {[          j,          J                                       ]};
-    key <AB04> {[          k,          K,           kra                        ]};
-    key <AB05> {[          x,          X,       multiply, division             ]};
+    key <AB02> {[          q,          Q,      slash                           ]};
+    key <AB03> {[          j,          J,      asterisk                        ]};
+    key <AB04> {[          k,          K,         minus                        ]};
+    key <AB05> {[          x,          X,          plus                        ]};
     key <AB06> {[          b,          B                                       ]};
     key <AB07> {[          m,          M,            mu                        ]};
-    key <AB08> {[          w,          W, less                                 ]};
-    key <AB09> {[          v,          V, greater                              ]};
+    key <AB08> {[          w,          W, less, guillemotleft                  ]};
+    key <AB09> {[          v,          V, greater, guillemotright              ]};
     key <AB10> {[          z,          Z                                       ]};
 
     include "level3(ralt_switch)"
